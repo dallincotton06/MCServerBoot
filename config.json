@@ -1,0 +1,40 @@
+{
+  "servers": [
+    {
+      "name": "TotallyNormalMC",
+      "channelID" : 1149356729675563028,
+      "template_id": "lt-0e66e9b5c8dca4e9c",
+      "version": "2",
+      "min_ram" : 4,
+      "max_ram" : 4,
+      "elastic_id": "eipalloc-0425d30af78b9e27e"
+    },
+    {
+      "name": "betterMC-ian",
+      "channelID" : 1191571678803808266,
+      "template_id": "lt-0720008433fdc6f5c",
+      "version": "1",
+      "min_ram" : 16,
+      "max_ram" : 16,
+      "elastic_id": "eipalloc-0306e6f3f785630ee"
+    },
+    {
+      "name": "silverwood",
+      "channelID" : 983206254522531870,
+      "template_id": "lt-0294ef7362a143127",
+      "version": "1",
+      "min_ram" : 8,
+      "max_ram" : 16,
+      "elastic_id": "eipalloc-0306e6f3f785630ee"
+    },
+    {
+      "name": "thefog",
+      "channelID" : 1311938367344087182,
+      "template_id": "lt-0f5a4978b32287de3",
+      "version": "3",
+      "min_ram" : 16,
+      "max_ram" : 16,
+      "elastic_id": "eipalloc-0306e6f3f785630ee"
+    }
+  ]
+}
