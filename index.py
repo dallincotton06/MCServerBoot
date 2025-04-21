@@ -21,4 +21,4 @@ async def on_ready():
     print(request)
 
 bot_user.bot.load_extension("commands.command_handler")
-bot_user.bot.run("MTE0OTE3OTkyOTA5NTgzMTYxMg.GUZwgf.yNluzNXXChjTSi647IMu_gGl-ZAIQm89E-imf0")
+bot_user.bot.run("YOUR_TOKEN")
