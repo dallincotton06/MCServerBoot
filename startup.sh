@@ -1,6 +1,6 @@
 #!bin/bash
 
-cd /home/ubuntu/meatballcraft
+cd ~/Server
 sudo screen -d -m sudo bash backup.sh
 
 sudo screen -dmS server sudo bash ServerStart.sh
@@ -10,7 +10,7 @@ while true; do
     then
       currentdir=$(pwd)
       instaceid=$(curl http://169.254.169.254/latest/meta-data/instance-id)
-      sudo aws s3 sync $currentdir s3://meatball-craft/server/
+      sudo aws s3 sync $currentdir s3://your-s3-bucket # Update
 
   echo "TERMINATING EC2 IN 2 MINUTES"
   sleep 120
